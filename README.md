@@ -3,7 +3,7 @@ Going to make a nice js app for people to search a list of all of the flames in 
 For an idea of what it will look like and how it will operate check out the current page [here](http://rawgit.com/Atrolantra/ToribashFlameList/master/index.html).
 
 TODO:
-- [ ] Get all flames saved into a datasource.
+- [ ] Get all flames saved into a data source.
   - [ ] Find suitable data source.
   - [ ] Make script to scrape data from most known flames [here](http://forum.toribash.com/showthread.php?t=556523) and add to data source.
   - [ ] Find a good way to check for new flames created and add these to data source.
@@ -20,4 +20,4 @@ TODO:
   - [ ] API could be used.
     - [ ] Find out how to call it efficiently.
     - [ ] Find out how to call it while keeping login details etc safe if it is to be done dynamically from here somehow.
-    - [ ] Otherwise (and especially if datasource is external somewhere) consider making a script to run at a certain interval and update this information.
+    - [ ] Otherwise (and especially if data source is external somewhere) consider making a script to run at a certain interval and update this information.
