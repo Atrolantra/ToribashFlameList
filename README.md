@@ -1,5 +1,8 @@
 # ToribashFlameList
-Going to make a nice js app for people to search a list of all of the flames in the game.
+Going to make a nice js app for people to search a list of all of the flames in the game.  
+For an idea of what it will look like and how it will operate check out the current page [here](http://rawgit.com/Atrolantra/ToribashFlameList/master/index.html).
+
+TODO:
 - [ ] Get all flames saved into a datasource.
   - [ ] Find suitable data source.
   - [ ] Make script to scrape data from most known flames [here](http://forum.toribash.com/showthread.php?t=556523) and add to data source.
