@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<!-- Library from: https://datatables.net/ -->
+
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+
+
+<script>
+$(document).ready( function () {
+    $('#example').DataTable( {
+        "iDisplayLength": 50
+    } );
+} );
+</script>
+
+<body>
+<table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Flame ID</th>
+                <th>Name</th>
+                <th>Forger</th>
+                <th>Forge Date</th>
+                <th>Body Part</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Flame ID</th>
+                <th>Name</th>
+                <th>Forger</th>
+                <th>Forge Date</th>
+                <th>Body Part</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1963</td>
+                <td>God fist flame</td>
+                <td>Fedz</td>
+                <td>2010-12-04 23:14:49</td>
+                <td>Right Hand</td>
+            </tr>
+            <tr>
+                <td>2554</td>
+                <td>Orbit</td>
+                <td>Kreaton</td>
+                <td>2010-12-04 23:14:49</td>
+                <td>Head</td>
+            </tr>
+            <tr>
+                <td>2774</td>
+                <td>my zawesome flame</td>
+                <td>OhEmGeeBank</td>
+                <td>2011-08-12 04:25:47</td>
+                <td>Left Hand</td>
+            </tr>
+            <tr>
+                <td>2891</td>
+                <td>Orko 1</td>
+                <td>Orko</td>
+                <td>2012-03-30 15:01:08</td>
+                <td>Left Hand</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
